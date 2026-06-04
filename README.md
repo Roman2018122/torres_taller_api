@@ -49,12 +49,14 @@
 ## En POSTMAN 
 #### Authorization: Bearer <access_token>
 ### Endpoints de la API
-#### Clientes
-#### Vehiculos
-#### Servicios
-#### Mecanicos
-#### Orden reparacion 
-#### Detalle servicio
+#### Clientes  http://127.0.0.1:8000/api/Cliente/
+#### Vehiculos http://127.0.0.1:8000/api/Vehiculo/
+#### Servicios http://127.0.0.1:8000/api/Servicio/
+#### Mecanicos http://127.0.0.1:8000/api/Mecanico/
+#### Orden reparacion http://127.0.0.1:8000/api/OrdenReparacion/
+#### Detalle servicio http://127.0.0.1:8000/api/DetalleServicio/
+
+
 
 ## Ejemplo de uso  POST con token :
 #### POST /api/Cliente/
@@ -73,4 +75,4 @@
 ## Usuario normal
 ### Solo lectura (GET)
 ## Administrador
-### CRUD completo (POST, PUT, DELETE)
+### CRUD completo (POST, PUT, DELETE) 
