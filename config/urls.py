@@ -28,9 +28,6 @@ from taller_api.api import(
 
 )
 
-
-
-
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('taller_api.urls'))
